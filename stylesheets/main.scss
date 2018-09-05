@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Computer Modern;
+    src: url(../fonts/computermodern.ttf);
+}
+
+
+section.average
+{
+    h1
+    {
+        font-weight: normal;
+        margin: 0;
+    }
+
+    #average
+    {
+        border: 0;
+        width: 99%;
+        display: block;
+        outline: none;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        padding: .2em .5em;
+        font-family: 'Computer Modern';
+        border-bottom: 2px solid #888;
+        &::placeholder{
+            color: #ccc;
+        }
+    }
+    .result{
+        cursor: pointer;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .avg-label{
+        font-weight: bold;
+        display: none;
+        text-align: center;
+    }
+    
+    font-family: 'Computer Modern';
+
+}

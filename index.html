@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ExpPhysA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css"  crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script src="scripts/average.js"></script>
+    <script src="scripts/main.js"></script>
+
+</head>
+
+<body>
+    
+
+    <section class="average">
+        <h1>Média, Variância & Desvio Padrão</h1>
+        <input placeholder='digite um número e dê enter' onkeyup='calculateAverage(event)' type="text" id='average'>
+        <div id='average-terms' class='result'></div>
+        <div id="at-label" class='avg-label'>Média</div>
+        <div id='variance' class='result'></div>
+        <div id="at-label" class='avg-label'>Variância</div>
+        <div id='stddeviance' class='result'></div>
+        <div id="at-label" class='avg-label'>Desvio Padrão</div>
+    </section>
+    <!-- <hr> -->
+
+
+
+
+</body>
+</html>

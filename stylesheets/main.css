@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Computer Modern;
+  src: url(../fonts/computermodern.ttf);
+}
+
+section.average {
+  font-family: 'Computer Modern';
+}
+
+section.average h1 {
+  font-weight: normal;
+  margin: 0;
+}
+
+section.average #average {
+  border: 0;
+  width: 99%;
+  display: block;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: .2em .5em;
+  font-family: 'Computer Modern';
+  border-bottom: 2px solid #888;
+}
+
+section.average #average::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+section.average #average:-ms-input-placeholder {
+  color: #ccc;
+}
+
+section.average #average::-ms-input-placeholder {
+  color: #ccc;
+}
+
+section.average #average::placeholder {
+  color: #ccc;
+}
+
+section.average .result {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.average .avg-label {
+  font-weight: bold;
+  display: none;
+  text-align: center;
+}
